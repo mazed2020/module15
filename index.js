@@ -1,6 +1,6 @@
 const http=require('http');
 const fs=require("fs");
-const port=5000;
+const port=5500;
 //server set question no1
 const server=http.createServer((req,res)=>{
     //question no 2
@@ -24,5 +24,5 @@ const server=http.createServer((req,res)=>{
     }
 })
 server.listen(port,()=>{
-    console.log(`the server should listen port ${port}`);
+    console.log(`it is listening on port ${port}`);
 })
